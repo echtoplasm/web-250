@@ -29,9 +29,9 @@ class Bicycle
 
     /* 
     
-    Kevins weight conversion is super pedantic.   
+    Kevins weight conversion seemed a bit pedantic.   
     
-    heres my code showing i know how to write the OOP methods, but having 2 functions to convert weight is insane, when you can just write a conditional constructor(see line 18-22)
+    heres my code showing i know how to write the OOP methods, but having 2 functions to convert weight seemed obtuse, so i just wrote a conditional constructor for weight(see line 18-22)
  
     public function weight_lbs(){
         return $this->weight * 2.20462;
@@ -54,9 +54,9 @@ $unitArr = ["kg", "lbs"];
 
 for ($i = 0; $i < sizeof($modelArr); $i++) {
     if ($i % 2 == 0) {
-        $unit == 'kg';
+        $unit = 'kg';
     } else {
-        $unit == 'lbs';
+        $unit = 'lbs';
     }
     
     $someBike = new Bicycle(

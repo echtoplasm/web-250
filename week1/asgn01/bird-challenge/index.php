@@ -22,7 +22,7 @@ class Bird
     {
         $lyrics = [
             'highway to the dangerzone',
-            'i will survice heyyyay',
+            'i will survive heyyyay',
             'just a small town girl'
         ];
 
