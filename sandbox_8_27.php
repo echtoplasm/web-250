@@ -38,7 +38,7 @@ for($i = 0; $i < 26; $i++){
 
 function obfuscate($str, $numArray) {
     $alpha = ['a', 'b', 'c', 'd', 'e', 'f', 
-              'g', 'h' ,'i', 'j', 'k', 'l',
+              'g', 'h' ,'i', 'j', 'k', 'l', 'm',
               'n', 'o', 'p', 'q', 'r', 's', 't', 
               'u' , 'v','w', 'x', 'y', 'z'];
 
@@ -51,7 +51,7 @@ function obfuscate($str, $numArray) {
 
     $obfuscatedArr = [];
     
-    for($i = 0; $i <  count($strArr); $i++){
+    for($i = 0; $i < count($strArr); $i++){
         forEach($alphaNumMap as $key => $value) {
             if($strArr[$i] === $key){
                 array_push($obfuscatedArr, $value);
@@ -63,6 +63,6 @@ function obfuscate($str, $numArray) {
 
 }
 
-print_r(obfuscate("Hello", $numArr));
+print_r(obfuscate("hello", $numArr));
 
 
