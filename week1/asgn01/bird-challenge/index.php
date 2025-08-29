@@ -29,10 +29,10 @@ class Bird
         $randInt = rand(1, 99);
 
         switch ($randInt) {
-            case $randInt < 33:
+            case $randInt <= 33:
                 echo ("{$this->commonName} sings: $lyrics[0]");
                 break;
-            case $randInt > 33 && $randInt < 66:
+            case $randInt > 33 && $randInt <= 66:
                 echo ("{$this->commonName} sings: $lyrics[1]");
                 break;
             case $randInt > 66:
